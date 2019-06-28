@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        .rowHeading{
+            background: #3f51b5;
+            color: #fff;
+        }
+
+        .row{
+            background: #002984;
+            color: #fff;
+        }
+
+        .subRow{
+            opacity: 0.8;
+        }
+    </style>
+    <title>Employees Record</title>
+</head>
+<body>
+    <table id="myTable" cellpadding="10">
+        <tr class="rowHeading">
+            <td><strong>NAME</strong></td>
+            <td><strong>AGE</strong></td>
+            <td><strong>PROFILE</strong></td>
+            <td><strong>SALARY</strong></td>
+        </tr>
+    </table>
+
+    <form>
+        Name : <input type="text" name="name">
+        Age : <input type="text" name="profile">
+        Profile : <input type="text" name="profile">
+        Salary : <input type="text" name="salary">
+    </form>
+
+    <button id="button1">Click me to add default row</button>
+    <script src="employee.js"></script>
+
+</body>
+</html>
